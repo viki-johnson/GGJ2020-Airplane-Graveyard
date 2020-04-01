@@ -1,0 +1,111 @@
+ID,character,trigger,condition,order,content
+,,,,,
+0,engineer,proximity,opening,0,"So you finally decided to wake up, huh?"
+1,engineer,onclick,opening,1,Well quit gawping and make yourself useful! I can't fix this plane without parts.
+2,engineer,onclick,opening,2,I saw plenty of crashed planes on the other islands - get over there and do some salvaging!
+3,engineer,onclick,opening,3,"Someone's left a boat by the shore. I checked it over, looks sturdy enough."
+4,engineer,onclick,opening,4,There's a list of what I need over by those crates.
+5,engineer,onclick,opening,5,What are you waiting for? We've got about four minutes before the next storm rolls in.
+6,engineer,onclick,opening,6,Get on with it and let me work.
+7,engineer,proximity,first return,0,"You're back! Boat didn't sink, then. What have you got for me?"
+8,engineer,proximity,second return,0,What took you so long?
+9,engineer,proximity,third return,0,You're getting the hang of this - what have you got there?
+10,engineer,proximity,fourth return,0,"Gah, this grease gets everywhere. I can't wait to get home and have a bath."
+11,engineer,proximity,fifth return,0,I can't believe I'm stuck here with thi - Oh hey you're back!
+12,engineer,proximity,sixth return,0,What I'd do for a drink right now... hey pass me the sprocket wrench would you?
+13,engineer,onclick,if correct items,0,Yes! This will fix the engine mounting perfectly.
+14,engineer,onclick,if correct items,1,"What do you want, a medal? Get back out there!"
+15,engineer,onclick,if correct items,0,"Well look at you, like a puppy with the mail."
+16,engineer,onclick,if correct items,1,"This is perfect. Thank you, dear."
+17,engineer,onclick,if correct items,0,"I think if I hook it up right, this could be a replacement compressor fan."
+18,engineer,onclick,if correct items,1,"I wouldn't call it 'dangerous' dear, no. Don't be so alarmist."
+19,engineer,onclick,if correct items,0,"I wouldn't normally use this sort of stabiliser spring, but needs must."
+20,engineer,onclick,if correct items,1,It's either use this or be stuck here forever.
+21,engineer,onclick,if incorrect items,0,That's not what I asked for - check the list by the crates!
+22,engineer,onclick,if incorrect items,1,"I'm not asking for the world, here."
+23,engineer,onclick,if incorrect items,0,"Don't be a fool, I need a screw lug, not a spark plug!"
+24,engineer,onclick,if incorrect items,1,"Honestly, I don't know how they let you fly this thing."
+25,engineer,onclick,if incorrect items,0,"Jesus, can't you read?! Why would you bring me an afterburner foretube?"
+26,engineer,onclick,if incorrect items,1,My mother warned me about women like you.
+27,engineer,onclick,if incorrect items,0,Did you get that from a plane engine or a steam engine?
+28,engineer,onclick,if incorrect items,1,"Of course it's not going to fit, you damn fool!"
+29,engineer,onclick,if plane finished,0,"Okay, hand me the part... and the tensioner - that's the one, on the left..."
+30,engineer,onclick,if plane finished,1,...that should do the trick! She's back up and running!
+31,engineer,onclick,if plane finished,2,"I am a genius, and you... you're good at running errands."
+32,engineer,onclick,if plane finished,3,Let's grab our stuff and get out of here.
+,,,,,
+33,scrapseller,proximity,first meeting,0,"Hey lady! Yeah, I'm talkin' to you!"
+34,scrapseller,onclick,first meeting,1,"What do you mean, rude? I'm an upstanding citizen of these here islands."
+35,scrapseller,onclick,first meeting,2,"Yada yada yada - listen lady, I'm lookin' for scrap."
+36,scrapseller,onclick,first meeting,3,And I'm willing to pay - with other scrap!
+37,scrapseller,onclick,first meeting,4,"I'm trying to make something, see, but the storms keep ruining my work!"
+38,scrapseller,onclick,first meeting,5,They blow all my good parts away and give me all this other junk I don't need.
+39,scrapseller,onclick,first meeting,6,"So if you find what I'm lookin' for, bring it to me and we can do a deal."
+40,scrapseller,onclick,first meeting,7,My rates are very reasonable! Take a look at the sign!
+41,scrapseller,proximity,second meeting,0,Hey lady! Got any of the good stuff?!
+42,scrapseller,onclick,second meeting,1,"Honestly, these are great rates I'm offering."
+43,scrapseller,onclick,second meeting,2,Best on the island.
+44,scrapseller,onclick,second meeting,3,Heh heh.
+45,scrapseller,proximity,third meeting,0,"Oh, she's back! What did you bring me?"
+46,scrapseller,onclick,third meeting,1,"A lot of people, they'd try to rip you off, but not me, I'm a true gent."
+47,scrapseller,onclick,third meeting,2,"I really care, y'know?"
+48,scrapseller,onclick,third meeting,3,"I gotta have the right stuff for what I'm making, can't just use any old junk."
+49,scrapseller,onclick,third meeting,4,Don't you be worrying about what it is I'm making.
+50,scrapseller,onclick,third meeting,5,"It's a secret, I've been working on it for a long time."
+51,scrapseller,onclick,third meeting,6,"Sufficed to say, I'm quite the artiste."
+52,scrapseller,proximity,fourth meeting,0,Hey lady! How's it goin'?
+53,scrapseller,onclick,fourth meeting,1,You actually listen to that radio show?
+54,scrapseller,onclick,fourth meeting,2,"Weird fella, if you ask me."
+55,scrapseller,onclick,fourth meeting,3,"I don't get off my island much, but I don't think he's telling the truth."
+56,scrapseller,onclick,fourth meeting,4,"I mean what's all this about a war, eh?"
+57,scrapseller,onclick,fourth meeting,5,"It's no war, just a couple having a fall out."
+58,scrapseller,onclick,fourth meeting,6,"They're both giants though, so I suppose it might *sound* like a war."
+59,scrapseller,onclick,fourth meeting,7,"What, you callin' me a liar?"
+60,scrapseller,proximity,fifth meeting,0,"Welcome! Welcome, to the best scrap merchant this side of the Elegaic Isles!"
+61,scrapseller,onclick,fifth meeting,1,"Oh, it's you. You brought me something good this time?"
+62,scrapseller,onclick,fifth meeting,2,"I'm not just here to yap, you know."
+63,scrapseller,onclick,fifth meeting,3,"I got scrap needs selling, you got scrap what I need."
+64,scrapseller,onclick,fifth meeting,4,It's a partnership! We're partners!
+65,scrapseller,onclick,fifth meeting,5,Yeah? Well maybe I already got a partner too!
+66,scrapseller,onclick,fifth meeting,6,"Well no, not here, obviously! You blind or something?"
+67,scrapseller,onclick,fifth meeting,7,"You're right, I'm sorry. I got a temper sometimes."
+68,scrapseller,event,sold scrap 1,0,"Oh boy, the things I can do with that!"
+69,scrapseller,event,sold scrap 2,0,Thank you! I only need one more piece and I'm done.
+70,scrapseller,event,sold scrap 3,0,Oh boy oh boy oh boy thank you! I can finally finish it!
+,,,,,
+71,radiodude,proximity,first meeting,0,"Oh, hello!"
+72,radiodude,onclick,first meeting,1,"My name's Davie, you might have heard me on the radio?"
+73,radiodude,onclick,first meeting,2,I don't get many visitors.
+74,radiodude,onclick,first meeting,3,"That plane that went down was you, I assume?"
+75,radiodude,onclick,first meeting,4,"I'm sorry, you'll find it's not so bad here, really."
+76,radiodude,onclick,first meeting,5,Oh you're leaving? Good luck with that.
+77,radiodude,onclick,first meeting,6,Many have tried...
+78,radiodude,proximity,second meeting,0,"And now, for th- woah hey stop making noise - I'm recording!"
+79,radiodude,onclick,second meeting,1,Aww I'm going to have to scrap that whole bit now.
+80,radiodude,onclick,second meeting,2,Of course I record them in advance! Going out live is scary!
+81,radiodude,onclick,second meeting,3,What if some crazy lady came onto your island and interrupted you?
+82,radiodude,onclick,second meeting,4,Or..or a crab nipped your toe?
+83,radiodude,onclick,second meeting,5,"You've got to pre-record all of it, there's no other way."
+84,radiodude,proximity,third meeting,0,"Oh hey! Still here, huh?"
+85,radiodude,onclick,third meeting,1,"No I'm not saying you can't leave, it's just not many do."
+86,radiodude,onclick,third meeting,2,That old scrap dealer - he tried to leave for years but never managed it.
+87,radiodude,onclick,third meeting,3,"I think he's settled in now, got used to it."
+88,radiodude,onclick,third meeting,4,"Island life isn't so bad -  you've got the ocean, the sand..."
+89,radiodude,onclick,third meeting,5,...me on the radio.
+90,radiodude,onclick,third meeting,6,"I'd stop all the rushing around and get settled in, if I were you."
+91,radiodude,proximity,fourth meeting,0,Back again? Come for advice?
+92,radiodude,onclick,fourth meeting,1,"Okay, well I was just offering."
+93,radiodude,onclick,fourth meeting,2,"Alright, alright! Next time I won't ask. What did you come here for then?"
+94,radiodude,onclick,fourth meeting,3,"No, you can't use my radio to call for help."
+95,radiodude,onclick,fourth meeting,4,"What, you don't think I've tried?"
+96,radiodude,onclick,fourth meeting,5,"Nothing gets through the storm, believe me - too much electromagnetism."
+97,radiodude,onclick,fourth meeting,6,It's not going to blow over - that same storm's being going since I was in short trousers.
+98,radiodude,onclick,fourth meeting,7,"It's just a fact of life, you've got to accept it."
+99,radiodude,proximity,fifth meeting,0,Good to see you again!
+100,radiodude,onclick,fifth meeting,1,Does it feel like we've been here before?
+101,radiodude,onclick,fifth meeting,2,Sometimes it's difficult to tell.
+102,radiodude,onclick,fifth meeting,3,"What do you think of the programme, by the way?"
+103,radiodude,onclick,fifth meeting,4,Well I don't think *you're* very luxury.
+104,radiodude,onclick,fifth meeting,5,"And it's not made up, every word is true."
+105,radiodude,onclick,fifth meeting,6,I'm just very good at making it *seem* fantastical.
+106,radiodude,onclick,fifth meeting,7,That's where the 'luxury' comes in.
